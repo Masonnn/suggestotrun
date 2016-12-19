@@ -1,3 +1,3 @@
-class Topic < ActiveRecord::Base
+class Topic < ApplicationRecord
   has_many :votes, dependent: :destroy
 end
